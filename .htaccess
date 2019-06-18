@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule ^(dir1)/?(path2)? index.php?dir=$1&path=$2
