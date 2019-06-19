@@ -1,0 +1,301 @@
+
+  h1,h2,h3{
+        color: #F2552C;
+    }
+    hr{
+        border-color: #F2552C;
+    }
+
+/* Inloggen.php*/
+.log-in-form {
+  border: 1px solid #cacaca;
+  padding: 1rem;
+  border-radius: 0;
+    border: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px; 
+    max-width: 1000px;
+}
+
+/* accountgegevens */
+
+    .product-card-title a {
+      color: #F2552C;
+    }
+    .comment-section-name a {
+      color: #F2552C;
+    }
+/* formulierpagina */
+
+
+
+/* over ons */
+.inhoud_tekst{
+    font-family: verdana;
+    font-size: 16px;
+    margin-left: 5%;
+}
+.breadcrumbs{
+margin-top: 10px;
+}
+
+@media screen and (max-width: 650px){
+.over_ons_img{
+    display:none;
+}
+}
+
+.competenties{
+    margin: 20px 0px 0px 80px;
+}
+
+
+#alternativemenu{
+    width: 800px;
+}
+/* product pagina */
+
+
+form .stars {
+  background: url("/img/stars.png") repeat-x 0 0;
+  width: 150px;
+  margin: 0;
+}
+
+form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+form .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("/img/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+
+
+
+/* profiel pagina */
+
+.product-card-title a {
+  color: #F2552C;
+}
+.comment-section-name a {
+  color: #F2552C;
+}
+.block-list header {
+  color: #F2552C;
+}
+.comment {
+  color: #F2552C;
+}
+
+/* resultatenpagina hoofdpagina*/
+
+.sidemenu{
+padding:0;
+}
+.contentbody{
+
+box-shadow: 0 0 10px hsla(0,0%,1%,.2);
+}
+
+.select-product-colors {
+margin-bottom: 2rem;
+margin-top: 1rem;
+}
+
+.app-dashboard-sidebar-block-title {
+font-size: 20px;
+font-weight: 3em;
+}
+
+.app-sidebar-title{
+font-size: 18px;
+text-align: center;
+margin: 1em 1em 0em 1em;
+}
+
+#app-dashboard-sidebar .button {
+background: #F2552C;
+color: #FFFFFF;
+}
+
+#app-dashboard-sidebar ul > li > a{
+color: #2c3840;
+}
+
+#app-dashboard-sidebar ul > li > a{
+color: #2c3840;
+}
+
+.is-accordion-submenu-parent > a::after{
+    border-color: #FFFFFF transparent transparent;
+}
+
+.is-accordion-submenu-parent > ul > li > a::after{
+    border-color: #2c3840 transparent transparent;
+}
+
+
+/* button */
+
+
+    .button {
+      background-color: #F2552C;
+    }
+    .button:hover,
+    .button:focus {
+      background-color: #F2552C;
+    }
+
+    
+    .button.primary {
+    background-color: #F2552C ;
+   
+    color: #fefefe; }
+    .button.primary:hover, .button.primary:focus {
+      background-color: #E1441B;
+        color: #fefefe; }
+
+      /* header slider */
+
+     
+.ecommerce-product-slider .orbit-previous,
+.ecommerce-product-slider .orbit-next {
+  color: #fff;
+}
+
+.ecommerce-product-slider .orbit-bullets button {
+  height: 0.65rem;
+  width: 0.65rem;
+}
+.ecommerce-product-slider{
+padding:2rem;
+}
+.ecommerce-product-slider .product-card {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ecommerce-product-slider .product-card-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.ecommerce-product-slider .product-card-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.ecommerce-product-slider .product-card-desc {
+  color: #8a8a8a;
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.85rem;
+}
+
+.ecommerce-product-slider .product-card-price {
+  color: #3e3e3e;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.ecommerce-product-slider .product-card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
+}
+
+.ecommerce-product-slider .product-card-colors {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.ecommerce-product-slider .product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+/* CONTENT */
+#content{
+  padding:0;
+}
+.mobile-nav-bar {
+  background-color: #2c3840;
+}
+
+.mobile-nav-bar a {
+  color: #fefefe;
+}
+
+.offset-top{
+  margin-top:20px;
+}
